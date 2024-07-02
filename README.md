@@ -85,7 +85,7 @@ nginx -t
 getenforce 
 ```  
 
-![images2](./images/selinux_11.png)
+![images2](./images/selinux_12.png)
 
 
 Дальше для более детального "ковыряния" SElinux пришлось устанавливать доп пакеты (комментарий автора - это очень странно, что надо
@@ -98,7 +98,7 @@ yum install setools-console
 yum install policycoreutils-newrole
 ```  
 
-![images2](./images/selinux_12.png)
+![images2](./images/selinux_11.png)
 
 Данная утилита подсказывает решение нашей проблемы, а именно, изменение параметра nis_enabled
 
